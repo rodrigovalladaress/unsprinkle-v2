@@ -26,7 +26,7 @@ const Hero = () => {
           alt="A photo of a cat looking at you"
         />
       </picture>
-      <Swoop src="/swoop.svg" />
+      <Swoop src="/swoop.svg" alt="" />
     </Wrapper>
   );
 };
