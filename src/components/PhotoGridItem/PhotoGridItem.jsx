@@ -42,6 +42,7 @@ const Anchor = styled.a`
 
 const Image = styled.img`
   display: block;
+  object-fit: cover;
   width: 100%;
   height: 300px;
   border-radius: 2px;
