@@ -50,12 +50,16 @@ const Image = styled.img`
 `;
 
 const Tags = styled.ul`
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-block: 8px;
 `;
 
 const Tag = styled.li`
+  display: inline;
+  margin-right: 8px;
   padding: 4px 8px;
   background: var(--color-gray-300);
   font-size: 0.875rem;
