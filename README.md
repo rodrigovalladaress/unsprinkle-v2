@@ -1,3 +1,5 @@
+Project for [CSS for JavaScript developers](https://css-for-js.dev/) course.
+
 # Unsprinkle — Module 6 workshop
 
 In this workshop, we're going to optimize and improve an existing application.
